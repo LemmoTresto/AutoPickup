@@ -8,12 +8,6 @@ public final class AutoPickup extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         Bukkit.getPluginManager().registerEvents(new MineListener(), this);
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 }
